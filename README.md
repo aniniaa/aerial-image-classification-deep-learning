@@ -82,6 +82,10 @@ The fine-tuned ResNet-18 model achieved perfect classification (F1-score = 1.0) 
 - The model struggled most with visually similar classes (different residential densities)
 - Data augmentation and proper stratification were crucial for achieving balanced performance across classes
 
+## Note on Assignment Submission
+
+While our experiments demonstrated that transfer learning with the fine-tuned ResNet-18 model achieved up to 97.35% validation accuracy, our official assignment submission focused on the custom CNN architecture trained from scratch as per assignment requirements. The COMP534 assessment guidelines specifically instructed students to "propose your own Convolutional Neural Network (CNN) to tackle the problem" and "train your proposed architecture from scratch," which is why our primary submission emphasized the custom CNN implementation. The transfer learning results shown here represent additional experiments we conducted to explore state-of-the-art approaches beyond the basic assignment requirements, demonstrating our comprehensive understanding of modern deep learning techniques for image classification tasks.
+
 ## Repository Structure
 ```
 COMP534-Assignment2/
