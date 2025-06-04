@@ -49,16 +49,16 @@ Implemented using two training strategies:
 
 ### Model Performance Comparison
 
-| Model Strategy | Best Validation Accuracy | Training Accuracy | Final Training Loss |
+| Model Strategy | Best Validation Accuracy | Final Training Accuracy | Final Training Loss |
 |----------------|-------------------------|-------------------|-------------------|
-| Custom CNN (Optimized) | 71.69% | 71.43% | 0.4579 |
-| ResNet-18 (From Scratch) | 82.80% | - | 0.3553 |
-| ResNet-18 (Fine-tuned) | **97.35%** | - | 0.0435 |
+| Custom CNN (Optimized) | 71.69% | 85.05% | 0.4579 |
+| ResNet-18 (From Scratch) | 82.80% | 89.81% | 0.3553 |
+| ResNet-18 (Fine-tuned) | **97.35%** | 98.94% | 0.0435 |
 
 ### Test Set Performance (Fine-tuned ResNet-18)
-- **Test Accuracy**: 95.24%
-- **Macro F1-Score**: 0.95
-- **Weighted F1-Score**: 0.95
+- **Test Accuracy**: 93.81%
+- **Macro F1-Score**: 0.937
+- **Weighted F1-Score**: 0.937
 
 **Perfect Classification (F1-score = 1.0)**: 10 out of 21 classes
 **Most Challenging Classes**: Visually similar categories (e.g., different residential densities) due to shared visual features
@@ -162,5 +162,6 @@ This work has practical applications in:
 - Statistical analysis and visualization
 
 ---
+
 Copyright (c) 2025 Alina Alimova, Aniya Bagheri
 *This work was completed during MSc studies at the University of Liverpool, demonstrating competency in machine learning and computer vision techniques.*
