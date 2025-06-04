@@ -1,5 +1,7 @@
 # Aerial Image Classification using Deep Learning
 
+[![License: View Only](https://img.shields.io/badge/License-View%20Only-red.svg)](LICENSE)
+
 A comprehensive comparison of custom CNN architectures and transfer learning approaches for multi-class aerial image classification.
 
 ## Project Overview
@@ -86,21 +88,15 @@ tqdm>=4.62.0
 ### Project Structure
 ```
 ├── README.md
-├── requirements.txt
+├── LICENSE
+├── Requirements.txt
 ├── aerial_image_classification.py    # Main implementation
-├── models/
-│   ├── custom_cnn.py            # Custom CNN architecture
-│   └── resnet_trainer.py        # ResNet training utilities
-├── utils/
-│   ├── data_loader.py           # Data preprocessing and loading
-│   ├── evaluation.py            # Model evaluation utilities
-│   └── visualization.py         # Plotting and visualization
+├── methodology.md                    # Detailed methodology documentation
 ├── results/
-│   ├── confusion_matrices/      # Confusion matrix plots
-│   ├── training_curves/         # Loss and accuracy plots
-│   └── classification_reports/  # Detailed performance metrics
-└── docs/
-    └── methodology.md           # Detailed methodology documentation
+│   ├── confusion_matrices/          # Confusion matrix plots
+│   ├── training_curves/             # Loss and accuracy plots
+│   ├── classification_reports/      # Detailed performance metrics
+│   └── sample_images/               # Dataset visualization
 ```
 
 ## Usage
@@ -138,7 +134,7 @@ tqdm>=4.62.0
 ## Performance Highlights
 
 The fine-tuned ResNet-18 model demonstrates:
-- **High Accuracy**: 97.35% validation, 95.24% test accuracy
+- **High Accuracy**: 97.35% validation, 93.81% test accuracy
 - **Balanced Performance**: Consistent results across all 21 classes
 - **Practical Applicability**: Suitable for real-world remote sensing applications
 - **Efficient Training**: Convergence within 25 epochs
@@ -161,7 +157,12 @@ This work has practical applications in:
 - PyTorch implementation and GPU utilization
 - Statistical analysis and visualization
 
+## License
+
+This project is licensed under a View-Only Portfolio License. You may view and learn from the code, but commercial use, modification, or redistribution is prohibited. See [LICENSE](LICENSE) for full details.
+
 ---
 
-Copyright (c) 2025 Alina Alimova, Aniya Bagheri
-*This work was completed during MSc studies at the University of Liverpool, demonstrating competency in machine learning and computer vision techniques.*
+*Copyright (c) 2025 Alina Alimova, Aniya Bagheri*
+
+*This work was completed during MSc studies at the University of Liverpool, demonstrating advanced competency in machine learning and computer vision techniques.*
