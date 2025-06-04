@@ -1,6 +1,7 @@
 # Aerial Image Classification using Deep Learning
 
 [![License: View Only](https://img.shields.io/badge/License-View%20Only-red.svg)](LICENSE)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Faniniaa%2Faerial-image-classification-deep-learning.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Faniniaa%2Faerial-image-classification-deep-learning?ref=badge_shield)
 
 A comprehensive comparison of custom CNN architectures and transfer learning approaches for multi-class aerial image classification.
 
@@ -143,3 +144,6 @@ This project is licensed under a View-Only Portfolio License. You may view and l
 *Copyright (c) 2025 Alina Alimova, Aniya Bagheri*
 
 *This work was completed during MSc studies at the University of Liverpool, demonstrating advanced competency in machine learning and computer vision techniques.*
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Faniniaa%2Faerial-image-classification-deep-learning.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Faniniaa%2Faerial-image-classification-deep-learning?ref=badge_large)
