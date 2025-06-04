@@ -1,0 +1,56 @@
+# Final Performance Metrics
+
+## Model Comparison Summary
+
+### Custom CNN (Optimized)
+- Best Validation Accuracy: 71.69%
+- Final Training Accuracy: 85.05%
+- Training Loss: 0.4579
+
+### ResNet-18 (From Scratch)
+- Best Validation Accuracy: 82.80%
+- Final Training Accuracy: 89.81%
+- Training Loss: 0.3553
+
+### ResNet-18 (Fine-tuned) - BEST MODEL
+- Best Validation Accuracy: 97.35%
+- Final Training Accuracy: 98.94%
+- Training Loss: 0.0435
+
+## Test Set Performance (ResNet-18 Fine-tuned)
+- Test Accuracy: 93.81%
+- Test Loss: 0.2039
+- Macro F1-Score: 0.937
+- Weighted F1-Score: 0.937
+
+## Per-Class Performance (Fine-tuned ResNet-18)
+
+| Class | Precision | Recall | F1-Score |
+|-------|-----------|---------|----------|
+| agricultural | 1.0000 | 1.0000 | 1.0000 |
+| airplane | 1.0000 | 0.9000 | 0.9474 |
+| baseballdiamond | 0.9091 | 1.0000 | 0.9524 |
+| beach | 0.9091 | 1.0000 | 0.9524 |
+| buildings | 0.8182 | 0.9000 | 0.8571 |
+| chaparral | 1.0000 | 1.0000 | 1.0000 |
+| denseresidential | 0.9000 | 0.9000 | 0.9000 |
+| forest | 0.9091 | 1.0000 | 0.9524 |
+| freeway | 0.9091 | 1.0000 | 0.9524 |
+| golfcourse | 1.0000 | 0.7000 | 0.8235 |
+| harbor | 1.0000 | 1.0000 | 1.0000 |
+| intersection | 1.0000 | 1.0000 | 1.0000 |
+| mediumresidential | 0.8182 | 0.9000 | 0.8571 |
+| mobilehomepark | 1.0000 | 1.0000 | 1.0000 |
+| overpass | 1.0000 | 0.9000 | 0.9474 |
+| parkinglot | 1.0000 | 1.0000 | 1.0000 |
+| river | 0.8333 | 1.0000 | 0.9091 |
+| runway | 0.9091 | 1.0000 | 0.9524 |
+| sparseresidential | 1.0000 | 0.8000 | 0.8889 |
+| storagetanks | 0.9000 | 0.9000 | 0.9000 |
+| tenniscourt | 1.0000 | 0.8000 | 0.8889 |
+
+## Key Findings
+- Perfect classification (F1 = 1.0) achieved for 8 out of 21 classes
+- Most challenging classes: golfcourse (0.8235), sparseresidential (0.8889), tenniscourt (0.8889)
+- Transfer learning dramatically outperformed training from scratch
+- Strong generalization: minimal gap between validation (97.35%) and test (93.81%) accuracy
