@@ -99,29 +99,6 @@ tqdm>=4.62.0
 │   └── sample_images/               # Dataset visualization
 ```
 
-## Usage
-
-1. **Data Preparation**:
-   ```python
-   # Organize aerial imagery dataset in the following structure:
-   # dataset/
-   # ├── class1/
-   # ├── class2/
-   # └── ...
-   ```
-
-2. **Train Models**:
-   ```python
-   python aerial_image_classification.py --model custom_cnn
-   python aerial_image_classification.py --model resnet18_scratch
-   python aerial_image_classification.py --model resnet18_finetune
-   ```
-
-3. **Evaluate Performance**:
-   ```python
-   # Evaluation metrics and visualizations are automatically generated
-   # Check results/ directory for outputs
-   ```
 
 ## Key Features
 
